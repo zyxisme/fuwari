@@ -1,5 +1,5 @@
 ---
-import Giscus from "../../components/misc/Giscus.astro";
+import Giscus from "@components/misc/Giscus.astro";
 
 import path from "node:path";
 import License from "@components/misc/License.astro";
@@ -109,24 +109,10 @@ const jsonLd = {
             </Markdown>
 
             {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} class="mb-6 rounded-xl license-container onload-animation"></License>}
+            <Giscus repo="d116u/giscus" repoId="R_kgDOP-gmBg" category="Announcements" categoryId="DIC_kwDOP-gmBs4CwZHF" />
 
         </div>
     </div>
-    <script src="https://giscus.app/client.js"
-        data-repo="d116u/giscus"
-        data-repo-id="R_kgDOP-gmBg"
-        data-category="Announcements"
-       data-category-id="DIC_kwDOP-gmBs4CwZHF"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="top"
-        data-theme="dark_dimmed"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
     <div class="flex flex-col md:flex-row justify-between mb-4 gap-4 overflow-hidden w-full">
         <a href={entry.data.nextSlug ? getPostUrlBySlug(entry.data.nextSlug) : "#"}
            class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.nextSlug}]}>
@@ -137,7 +123,6 @@ const jsonLd = {
                 </div>
             </div>}
         </a>
-
         <a href={entry.data.prevSlug ? getPostUrlBySlug(entry.data.prevSlug) : "#"}
            class:list={["w-full font-bold overflow-hidden active:scale-95", {"pointer-events-none": !entry.data.prevSlug}]}>
             {entry.data.prevSlug && <div class="btn-card rounded-2xl w-full h-[3.75rem] max-w-full px-4 flex items-center !justify-end gap-4">
