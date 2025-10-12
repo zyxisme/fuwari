@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/fucking-fcitx5.md",
+                "file": "src/content/posts/move-xboard.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "fucking-fcitx5"
+              "title": "move-xboard"
             }
           }
         ]
@@ -171,9 +171,22 @@
   },
   "active": "e4fb3d3db5a34f78",
   "lastOpenFiles": [
-    "src/content/posts/new-post.md",
     "src/content/posts/fucking-fcitx5.md",
+    "src/content/posts/move-xboard.md",
+    "src/demo/post-demo.md",
+    "src/content/posts/未命名.md",
+    "src/content/posts/未命名",
+    "src/demo",
     "src/assets/images/fucking-fcitx5.png",
+    "public/favicon/favicon-light-192.png",
+    "public/favicon/favicon-light-180.png",
+    "public/favicon/favicon-light-128.png",
+    "public/favicon/favicon-light-32.png",
+    "public/favicon/favicon-dark-192.png",
+    "public/favicon/favicon-dark-180.png",
+    "public/favicon/favicon-dark-128.png",
+    "public/favicon/favicon-dark-32.png",
+    "src/content/posts/new-post.md",
     "src/content/posts/2025-10-08.md",
     "docs/README.zh-CN.md",
     "src/content/spec/about.md"

@@ -1,6 +1,6 @@
 ---
 title: fucking-fcitx5
-published: 2025-10-12
+published: 2025-10-12T00:00:00
 description: FUCKING FCITX
 image: ../../assets/images/fucking-fcitx5.png
 tags:
