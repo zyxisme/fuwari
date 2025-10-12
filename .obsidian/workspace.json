@@ -171,6 +171,7 @@
   },
   "active": "e4fb3d3db5a34f78",
   "lastOpenFiles": [
+    "src/layouts/Layout.astro~",
     "src/config.ts~",
     "src/assets/images/demo-banner.png",
     "src/assets/images/b.png",
@@ -188,7 +189,6 @@
     "src/content/posts/move-xboard.md",
     "src/demo/post-demo.md",
     "src/content/posts/未命名.md",
-    "src/content/posts/未命名",
     "src/assets/images/fucking-fcitx5.png",
     "public/favicon/favicon-light-192.png",
     "public/favicon/favicon-light-180.png",
