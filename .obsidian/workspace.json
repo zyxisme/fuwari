@@ -171,6 +171,7 @@
   },
   "active": "e4fb3d3db5a34f78",
   "lastOpenFiles": [
+    "src/components/Footer.astro~",
     "src/content/spec/about.md~",
     "src/config.ts~",
     "src/layouts/Layout.astro~",
@@ -184,7 +185,6 @@
     "node_modules/@iconify",
     "node_modules/@biomejs",
     "_tmp_58452_a0a2a1a67997bf516a4d344fa78be2c2",
-    "src/pages/posts/[...slug].astro~",
     "src/content/posts/fucking-fcitx5.md",
     "src/content/posts/move-xboard.md",
     "src/demo/post-demo.md",
