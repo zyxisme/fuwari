@@ -47,7 +47,12 @@ export const navBarConfig: NavBarConfig = {
     {
       name: "探针",
       url: "https://nz.zyx-blog.top",
-      external: true
+      external: true,
+    },
+    {
+      name: "Umami",
+      url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
+      external: true,
     },
     {
 			name: "一键起飞",
