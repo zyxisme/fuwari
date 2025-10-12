@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 		},
     {
       name: "别点",
-      url: "https://idc.080920.zyx",
+      url: "https://idc.080920.xyz",
       external: true,
     },
 	],
