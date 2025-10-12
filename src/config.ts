@@ -44,7 +44,12 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-		{
+    {
+      name: "探针",
+      url: "https://nz.zyx-blog.top",
+      external: true
+    },
+    {
 			name: "一键起飞",
 			url: "https://eo.zyx-blog.top", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
