@@ -1,0 +1,11 @@
+{
+  "strictLineBreaks": true,
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "src/content/posts",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "src/assets/images",
+  "newLinkFormat": "relative",
+  "promptDelete": false,
+  "spellcheck": false
+}
