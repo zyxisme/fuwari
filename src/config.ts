@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "ZYX",
-	subtitle: "blog",
+	title: "ZYX-blog",
+	subtitle: "",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 200, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -55,13 +55,13 @@ export const navBarConfig: NavBarConfig = {
       external: true,
     },
     {
-			name: "一键起飞",
-			url: "https://eo.zyx-blog.top", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
+		name: "一键起飞",
+		url: "https://xb.zyx-blog.top", // Internal links should not include the base path, as it is automatically added
+		external: true, // Show an external link icon and will open in a new tab
+	},
     {
       name: "别点",
-      url: "https://idc.080920.xyz",
+      url: "https://nnyunidc.xyz",
       external: true,
     },
 	],
