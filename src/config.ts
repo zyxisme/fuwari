@@ -70,7 +70,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/mmexport1754374724013.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "ZYX",
-	bio: "![](https://badge.folo.is/feed/202215075068683264?color=FF5C00&labelColor=black&style=flat-square)",
+	bio: "",
 	links: [
 		{
 			name: "Telegram",
