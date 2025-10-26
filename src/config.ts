@@ -89,6 +89,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/d116u",
 		},
+		{
+			name: "Folo",
+			icon: "simple-icons:folo",
+			url: "https://app.folo.is/share/feeds/202215075068683264?view=-1",
+		},
 	],
 };
 
