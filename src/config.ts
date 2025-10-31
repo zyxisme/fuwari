@@ -44,11 +44,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home,
 		LinkPreset.Archive,
 		LinkPreset.About,
-    {
-      name: "探针",
-      url: "https://nz.zyx-blog.top",
-      external: true,
-    },
+		LinkPreset.Discuss,
     {
       name: "Umami",
       url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
