@@ -51,11 +51,6 @@ export const navBarConfig: NavBarConfig = {
       url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
       external: true,
     },
-    {
-		name: "一键起飞",
-		url: "https://xb.zyx-blog.top", // Internal links should not include the base path, as it is automatically added
-		external: true, // Show an external link icon and will open in a new tab
-	},
 	],
 };
 
