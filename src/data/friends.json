@@ -1,8 +1,14 @@
 {
   "friends": [
     {
+      "name": "未命名",
+      "avatar": "",
+      "description": "优秀机场",
+      "url": "https://xb.zyx-blog.top"
+    },
+    {
       "name": "宁宁云",
-      "avatar": "https://nnyunidc.cn/themes/web/yunyoo/assets/img/logo/logo.png",
+      "avatar": "",
       "description": "废物IDC",
       "url": "https://nnyunidc.cn"
     }
