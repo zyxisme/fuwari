@@ -45,6 +45,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		LinkPreset.About,
 		LinkPreset.Discuss,
+                LinkPreset.Friends,
     {
       name: "Umami",
       url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
