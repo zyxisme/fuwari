@@ -56,11 +56,6 @@ export const navBarConfig: NavBarConfig = {
 		url: "https://xb.zyx-blog.top", // Internal links should not include the base path, as it is automatically added
 		external: true, // Show an external link icon and will open in a new tab
 	},
-    {
-      name: "别点",
-      url: "https://nnyunidc.xyz",
-      external: true,
-    },
 	],
 };
 
