@@ -19,4 +19,8 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 		name: "讨论",
 		url: "/discuss/",
 	},
+        [LinkPreset.Friends]: {
+                name: "友链",
+                url: "/friends/",
+        },
 };
