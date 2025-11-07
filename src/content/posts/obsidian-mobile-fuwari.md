@@ -33,6 +33,7 @@ https://obsidian.md/download
 
 # 3. 使用
 ![](../../assets/images/obsidian-mobile-fuwari-4.png)
-点击右下角三横杠，然后sync with GitHub
+点击右下角三横杠，然后sync with GitHub  
+
 配置没问题的话就能美美编辑了
 ![](../../assets/images/obsidian-mobile-fuwari-5.png)
