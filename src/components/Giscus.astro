@@ -61,7 +61,7 @@ const {
     const giscusFrame = document.querySelector('iframe[src*="giscus"]');
     if (giscusFrame) {
       const isDark = document.documentElement.classList.contains('dark');
-      const theme = isDark ? 'noborder_gray' : 'light';
+      const theme = isDark ? 'dark' : 'light';
 
       giscusFrame.contentWindow.postMessage({
         giscus: {
