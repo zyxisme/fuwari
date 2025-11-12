@@ -1,3 +1,4 @@
 {
-  "folder": "src/demo"
+  "folder": "src/demo",
+  "timeFormat": "HH:mm:ss"
 }
