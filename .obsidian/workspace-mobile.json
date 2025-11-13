@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "obsidian-template"
             }
+          },
+          {
+            "id": "16e33110e6c1555f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/abcdefg.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "abcdefg"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,11 +169,13 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "3f39814f679e4f1d",
+  "active": "16e33110e6c1555f",
   "lastOpenFiles": [
+    "src/assets/images/abcdefg.png",
+    "src/content/posts/abcdefg.md",
+    "src/content/posts/obsidian-template.md",
     "src/assets/images/obsidian-template-1.png",
     "public/template.md",
-    "src/content/posts/obsidian-template.md",
     "src/content/posts/empty-post.md",
     "src/demo/demo.md",
     "src/assets/images/obsidian-template.png",
