@@ -13,44 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/obsidian-mobile-fuwari.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "obsidian-mobile-fuwari"
-            }
-          },
-          {
-            "id": "80ecc7399b2c679d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/demo/post-demo.md",
+                "file": "src/content/posts/obsidian-template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post-demo"
-            }
-          },
-          {
-            "id": "e82d44638514839e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/posts/test.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test"
+              "title": "obsidian-template"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +154,16 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "e82d44638514839e",
+  "active": "0b5dd432b65ebcff",
   "lastOpenFiles": [
-    "src/assets/images/test.png",
     "src/demo/demo.md",
-    "src/content/posts/test.md",
-    "src/demo/post-demo.md",
+    "src/assets/images/obsidian-template.png",
     "src/content/posts/obsidian-mobile-fuwari.md",
+    "src/demo/post-demo.md",
+    "src/content/posts/test.md",
+    "src/demo/template.md",
+    "src/content/posts/obsidian-template.md",
+    "src/assets/images/test.png",
     "src/content/posts/move-xboard.md",
     "src/content/posts/empty-post.md"
   ]
