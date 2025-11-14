@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "abcdefg"
             }
+          },
+          {
+            "id": "2b792363b15ab3cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/falcons.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "falcons"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,10 +183,14 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "16e33110e6c1555f",
+  "active": "2b792363b15ab3cf",
   "lastOpenFiles": [
-    "src/assets/images/abcdefg.png",
+    "src/assets/images/falcons-2.png",
+    "src/assets/images/falcons-1.png",
+    "src/assets/images/falcons.png",
+    "src/content/posts/falcons.md",
     "src/content/posts/abcdefg.md",
+    "src/assets/images/abcdefg.png",
     "src/content/posts/obsidian-template.md",
     "src/assets/images/obsidian-template-1.png",
     "public/template.md",
