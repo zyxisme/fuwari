@@ -6,7 +6,7 @@ image: ../../assets/images/vocechat.png
 tags:
   - vocechat
 category: vocecaht
-draft: true
+draft: false
 lang: ""
 ---
 # 安装
