@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/move-xboard.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "move-xboard"
+              "title": "README"
             }
           }
         ]
@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "README.zh-CN 的大纲"
             }
+          },
+          {
+            "id": "b85fdae435ac1dc0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,11 +176,12 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e4fb3d3db5a34f78",
   "lastOpenFiles": [
+    "src/content/posts/move-xboard.md",
     "src/config.ts~",
     "a.txt",
     "src/components/Footer.astro~",
@@ -184,9 +195,7 @@
     "pnpm-lock.yaml.652839014",
     "node_modules/@tailwindcss",
     "node_modules/@iconify",
-    "node_modules/@biomejs",
     "src/content/posts/fucking-fcitx5.md",
-    "src/content/posts/move-xboard.md",
     "src/demo/post-demo.md",
     "src/content/posts/未命名.md",
     "src/assets/images/fucking-fcitx5.png",
