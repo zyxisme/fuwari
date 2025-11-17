@@ -51,6 +51,11 @@ export const navBarConfig: NavBarConfig = {
       url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
       external: true,
     },
+    {
+      name: "zyx-chat",
+      url: "https://chat.zyx-blog.top",
+      external: true,
+    },
 	],
 };
 
