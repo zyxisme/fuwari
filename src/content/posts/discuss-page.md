@@ -7,7 +7,7 @@ tags:
   - fuwari
   - giscus
 category: fuwari
-draft: true
+draft: false
 lang: ""
 ---
 在 `stc/components` 下添加一个 `Giscus.astro`，写入以下代码  
