@@ -56,6 +56,23 @@ export const navBarConfig: NavBarConfig = {
       url: "https://chat.zyx-blog.top",
       external: true,
     },
+	{
+		name: "其他",
+		url: "#",
+		external: false,
+		children:[
+			{
+				name: "nnyunblog",
+				url: "https://blog.nnyunidc.cn",
+				external: true,
+			},
+			{
+				name: "monitor",
+				url: "https://nz.zyx-blog.top",
+				external: true,
+			},
+		],
+	},
 	],
 };
 
