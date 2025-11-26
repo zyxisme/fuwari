@@ -20,12 +20,19 @@ lang: ""
 上传到github
 https://github.com/settings/ssh/new  
 
-# clone仓库  
+# 管理仓库  
 >这里使用 [puppy git](https://github.com/catpuppyapp/PuppyGit)  
+
+## 设置密钥
 
 打开puppy git，点右上角长的像钥匙的图标，＋号添加密钥  
 凭据名：自己起  
 用户名/私钥：cat刚才的私钥，整段复制  
 密码不用填
 
->还没写完，还要写吗？
+## clone
+puppy git主页右上角＋克隆仓库  
+
+## push
+左上角三横杠列表选择修改列表  
+右上角列表里选择提交所有
