@@ -16,7 +16,7 @@ export const siteConfig: SiteConfig = {
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
-		enable: true,
+		enable: false,
 		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
@@ -58,9 +58,11 @@ export const navBarConfig: NavBarConfig = {
 		url: "#",
 		external: false,
 		children:[
-			LinkPreset.Home,
-			LinkPreset.Archive,
-			LinkPreset.About,
+			{
+				name: "文件分享",
+				url: "https://share.zyx-blog.top",
+				external: true,
+			},
 			{
 				name: "监控",
 				url: "https://nz.zyx-blog.top",
