@@ -44,11 +44,6 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Discuss,
     	LinkPreset.Friends,
     {
-      name: "Umami统计",
-      url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
-      external: true,
-    },
-    {
       name: "zyx-chat",
       url: "https://chat.zyx-blog.top",
       external: true,
@@ -58,6 +53,11 @@ export const navBarConfig: NavBarConfig = {
 		url: "#",
 		external: false,
 		children:[
+			{
+		      name: "Umami统计",
+		      url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
+		      external: true,
+		    },
 			{
 				name: "文件分享",
 				url: "https://share.zyx-blog.top",
