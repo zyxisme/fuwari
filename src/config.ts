@@ -41,13 +41,10 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
 		LinkPreset.Discuss,
     	LinkPreset.Friends,
     {
-      name: "Umami",
+      name: "Umami统计",
       url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
       external: true,
     },
@@ -61,13 +58,11 @@ export const navBarConfig: NavBarConfig = {
 		url: "#",
 		external: false,
 		children:[
+			LinkPreset.Home,
+			LinkPreset.Archive,
+			LinkPreset.About,
 			{
-				name: "nnyunblog",
-				url: "https://blog.nnyunidc.cn",
-				external: true,
-			},
-			{
-				name: "monitor",
+				name: "监控",
 				url: "https://nz.zyx-blog.top",
 				external: true,
 			},
