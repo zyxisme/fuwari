@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "fuwari-update-1"
             }
+          },
+          {
+            "id": "70179c6ad7570cb1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/find-for-bg.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "find-for-bg"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,10 +183,11 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "3e44ff6c7c4b8b26",
+  "active": "70179c6ad7570cb1",
   "lastOpenFiles": [
-    "src/content/posts/vocechat.md",
+    "src/content/posts/find-for-bg.md",
     "src/content/posts/fuwari-update-1.md",
+    "src/content/posts/vocechat.md",
     "src/content/posts/discuss-page.md",
     "src/content/posts/abcdefg.md",
     "src/assets/images/fuwari-update-1.png",
