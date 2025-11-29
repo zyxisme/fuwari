@@ -43,7 +43,7 @@
               "state": {
                 "file": "src/content/posts/find-for-bg.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "find-for-bg"

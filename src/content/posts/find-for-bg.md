@@ -2,7 +2,7 @@
 title: 谁有多余背景图
 published: 2025-11-29T11:28:42
 description: 为博客寻找背景
-image: '""'
+image: ''
 tags:
   - fuwari
   - background
