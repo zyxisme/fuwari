@@ -119,7 +119,7 @@ export const licenseConfig: LicenseConfig = {
 
 export const gitHubEditConfig: GitHubEditConfig = {
 	enable: true,
-	baseUrl: "https://github.com/afoim/fuwari/blob/main/src/content/posts",
+	baseUrl: "https://github.com/zyxisme/fuwari/blob/main/src/content/posts",
 };
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
