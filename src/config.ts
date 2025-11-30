@@ -4,7 +4,7 @@ import type {
 	NavBarConfig,
 	ProfileConfig,
 	SiteConfig,
-  GitHubEditConfig,
+ GitHubEditConfig,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -53,7 +53,7 @@ export const navBarConfig: NavBarConfig = {
 	links: [
     LinkPreset.Home,
     LinkPreset.Archive,
-		LinkPreset.Discuss,
+			LinkPreset.Discuss,
     LinkPreset.Friends,
     {
       name: "zyx-chat",
