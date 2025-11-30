@@ -50,8 +50,10 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
+    LinkPreset.Home,
+    LinkPreset.Archive,
 		LinkPreset.Discuss,
-    	LinkPreset.Friends,
+    LinkPreset.Friends,
     {
       name: "zyx-chat",
       url: "https://chat.zyx-blog.top",
