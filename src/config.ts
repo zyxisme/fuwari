@@ -4,6 +4,7 @@ import type {
 	NavBarConfig,
 	ProfileConfig,
 	SiteConfig,
+  GitHubEditConfig,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -113,6 +114,12 @@ export const licenseConfig: LicenseConfig = {
 	enable: true,
 	name: "CC BY-NC-SA 4.0",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+};
+
+
+export const gitHubEditConfig: GitHubEditConfig = {
+	enable: true,
+	baseUrl: "https://github.com/afoim/fuwari/blob/main/src/content/posts",
 };
 
 export const expressiveCodeConfig: ExpressiveCodeConfig = {
