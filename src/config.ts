@@ -57,7 +57,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Friends,
 	{
 		name: "赞助",
-		url: "/sponsors"
+		url: "/sponsors/",
 	},
 	{
 		name: "其他",
