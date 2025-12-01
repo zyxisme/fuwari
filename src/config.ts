@@ -62,9 +62,9 @@ export const navBarConfig: NavBarConfig = {
 		external: false,
 		children:[
 			{
-		      name: "Umami统计",
-		      url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
-		      external: true,
+			    name: "Umami统计",
+			    url: "https://cloud.umami.is/share/m0Vm9bobz83k9pAT",
+			    external: true,
 		    },
 			{
 				name: "文件分享",
@@ -77,12 +77,12 @@ export const navBarConfig: NavBarConfig = {
 				external: true,
 			},
 		    {
-		      name: "zyx-chat",
-		      url: "https://chat.zyx-blog.top",
-		      external: true,
+			    name: "zyx-chat",
+			    url: "https://chat.zyx-blog.top",
+			    external: true,
 		    },
 		],
-	},
+	}
 	],
 };
 
