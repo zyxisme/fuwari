@@ -6,7 +6,7 @@ image: ../../assets/images/fuwari-copy.png
 tags:
   - fuwari
 category: fuwari
-draft: true
+draft: false
 lang: ""
 ---
 # 页面  

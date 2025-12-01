@@ -199,6 +199,7 @@
   },
   "active": "ca4853591de2d498",
   "lastOpenFiles": [
+    "src/types/data.ts",
     "src/assets/images/fuwari-copy-1.png",
     "src/assets/images/fuwari-copy.png",
     "src/content/posts/fuwari-copy.md",
@@ -221,7 +222,6 @@
     "public/template.md",
     "src/content/posts/empty-post.md",
     "src/demo/demo.md",
-    "src/assets/images/obsidian-template.png",
     "src/content/posts/obsidian-mobile-fuwari.md",
     "src/demo/post-demo.md",
     "src/content/posts/test.md",
