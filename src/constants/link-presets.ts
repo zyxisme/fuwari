@@ -23,8 +23,4 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
         name: "友链",
         url: "/friends/",
     },
-	[LinkPreset.Sponsors]: {
-        name: "赞助",
-        url: "/sponsors/",
-    }
 };
