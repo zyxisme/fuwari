@@ -55,7 +55,7 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Archive,
 	LinkPreset.Discuss,
     LinkPreset.Friends,
-	LinkPreset.Sponsors,
+	//LinkPreset.Sponsors,
 	{
 		name: "其他",
 		url: "#",
