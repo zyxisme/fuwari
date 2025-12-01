@@ -4,7 +4,7 @@ import type {
 	NavBarConfig,
 	ProfileConfig,
 	SiteConfig,
- GitHubEditConfig,
+ 	GitHubEditConfig,
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
@@ -33,7 +33,7 @@ export const siteConfig: SiteConfig = {
 		size: "cover", // Background size: 'cover', 'contain', 'auto'
 		repeat: "no-repeat", // Background repeat: 'no-repeat', 'repeat', 'repeat-x', 'repeat-y'
 		attachment: "fixed", // Background attachment: 'fixed', 'scroll', 'local'
-		opacity: 0.5, // Background opacity (0-1)
+		opacity: 0.25, // Background opacity (0-1)
 	},
 	toc: {
 		enable: true, // Display the table of contents on the right side of the post
@@ -53,13 +53,9 @@ export const navBarConfig: NavBarConfig = {
 	links: [
     LinkPreset.Home,
     LinkPreset.Archive,
-			LinkPreset.Discuss,
+	LinkPreset.Discuss,
     LinkPreset.Friends,
-    {
-      name: "zyx-chat",
-      url: "https://chat.zyx-blog.top",
-      external: true,
-    },
+	LinkPreset.Sponsors,
 	{
 		name: "其他",
 		url: "#",
@@ -80,6 +76,11 @@ export const navBarConfig: NavBarConfig = {
 				url: "https://nz.zyx-blog.top",
 				external: true,
 			},
+		    {
+		      name: "zyx-chat",
+		      url: "https://chat.zyx-blog.top",
+		      external: true,
+		    },
 		],
 	},
 	],
