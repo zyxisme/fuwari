@@ -26,5 +26,5 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 	[LinkPreset.Sponsors]: {
         name: "赞助",
         url: "/sponsors/",
-    },
+    }
 };
