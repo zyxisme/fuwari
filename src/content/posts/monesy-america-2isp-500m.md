@@ -76,3 +76,4 @@ Full Test       | https://browser.geekbench.com/v5/cpu/24014157
  ![](../../assets/images/monesy-america-2isp-500m-2.png)
 
 [NodeQuality链接](https://nodequality.com/r/GQMGaZwqrlWrBKS1Sd83o6Ix41Oxw5OH)
+购买链接: https://monesy.cn/cart?fid=18&gid=48
