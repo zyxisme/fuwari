@@ -2,7 +2,7 @@
 title: komari探针动态图片
 published: 2026-01-11T23:41:37
 description: 会自己动哦
-image: ./https://stat.monesy.cn/api/mjpeg_live?lang=zh_cn&tz_offset=8
+image: https://stat.monesy.cn/api/mjpeg_live?lang=zh_cn&tz_offset=8
 tags:
   - komari
 category: komari
