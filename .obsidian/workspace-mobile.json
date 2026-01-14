@@ -95,10 +95,14 @@
             "id": "01443f1ee31f8e3e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/peer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "peer"
             }
           }
         ],
@@ -237,6 +241,8 @@
   },
   "active": "01443f1ee31f8e3e",
   "lastOpenFiles": [
+    "src/assets/images/peer.png",
+    "src/content/posts/peer.md",
     "src/content/posts/komari-img.md",
     "src/content/posts/monesy-america-2isp-500m.md",
     "src/assets/images/monesy-america-2isp-500m-2.png",
