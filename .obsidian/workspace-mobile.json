@@ -90,9 +90,19 @@
               "icon": "lucide-file",
               "title": "komari-img"
             }
+          },
+          {
+            "id": "01443f1ee31f8e3e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -225,7 +235,7 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "9abfca39289180f5",
+  "active": "01443f1ee31f8e3e",
   "lastOpenFiles": [
     "src/content/posts/komari-img.md",
     "src/content/posts/monesy-america-2isp-500m.md",
