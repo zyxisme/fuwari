@@ -9,7 +9,7 @@ category: komari
 draft: false
 lang: ""
 ---
-# 先看效果  
+    # 先看效果  
 ![](https://stat.monesy.cn/api/mjpeg_live?lang=zh_cn&tz_offset=8)  
 # 实现  
 >以一键脚本安装的为实例  
