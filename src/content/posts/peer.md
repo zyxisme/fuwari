@@ -11,17 +11,17 @@ lang: ""
 ---
 # 基础信息  
 ``` toml
-ASN = AS4242420116
-LLA IPv6 = fe80::116
+ASN = "AS4242420116"
+LLA IPv6 = "fe80::116"
 MP-BGP&Extended Next Hop = true
-Contact = telegram: @zyxisme
+Contact = "telegram: @zyxisme"
 ```  
 
 # 节点  
 ## US1 | LA | RackNerd DC02  
 ``` toml
 PubKey = "+OPNw0OX7X5vbcXI2pYS7N810nGFtluLDTYOkMG0vX4="
-IP = 双栈
-公网IPv4 = 142.171.34.205
-Endpoint = us1.node.zyx-blog.top:<您ASN的后5位数字>
+IP = "双栈"
+公网IPv4 = "142.171.34.205"
+Endpoint = "us1.node.zyx-blog.top:<您ASN的后5位数字>"
 ```
