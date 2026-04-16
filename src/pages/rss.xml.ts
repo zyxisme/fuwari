@@ -19,7 +19,7 @@ function stripInvalidXmlChars(str: string): string {
 
 export async function GET(context: APIContext) {
 	const blog = await getSortedPosts();
-	const siteUrl = (context.site ?? "https://fuwari.vercel.app").replace(/\/+$/, "");
+	const siteUrl = String(context.site ?? "https://fuwari.vercel.app").replace(/\/+$/, "");
 
 	return rss({
 		title: siteConfig.title,
