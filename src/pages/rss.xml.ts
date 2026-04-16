@@ -19,6 +19,7 @@ function stripInvalidXmlChars(str: string): string {
 
 export async function GET(context: APIContext) {
 	const blog = await getSortedPosts();
+	const siteUrl = (context.site ?? "https://fuwari.vercel.app").replace(/\/+$/, "");
 
 	return rss({
 		title: siteConfig.title,
@@ -28,14 +29,19 @@ export async function GET(context: APIContext) {
 			const content =
 				typeof post.body === "string" ? post.body : String(post.body || "");
 			const cleanedContent = stripInvalidXmlChars(content);
+			let html = sanitizeHtml(parser.render(cleanedContent), {
+				allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+			});
+			// Rewrite relative image src (e.g. _astro/xxx.webp) to absolute URLs
+			html = html.replace(/src="(?!https?:\/\/)([^"]*?)"/g, (_, p) => {
+				return `src="${siteUrl}/${p}"`;
+			});
 			return {
 				title: post.data.title,
 				pubDate: post.data.published,
 				description: post.data.description || "",
 				link: url(`/posts/${post.slug}/`),
-				content: sanitizeHtml(parser.render(cleanedContent), {
-					allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
-				}),
+				content: html,
 			};
 		}),
 		customData: `<language>${siteConfig.lang}</language>`,
