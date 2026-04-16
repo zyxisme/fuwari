@@ -1,6 +1,6 @@
 ---
 title: 破解畅言AP后台密码
-published: 20260416T13:09:00
+published: 2026-04-16T13:09:00
 description: 基于CSB_Client的AP/路由器密码破解方法
 image: ../../assets/images/ap.png
 tags: 
